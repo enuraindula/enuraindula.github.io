@@ -8636,6 +8636,7 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     position: relative;
+    border-radius: 0 0 10px 10px;
     z-index: 1; }
 
 .ftco-about ul.about-info {
@@ -8748,6 +8749,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 40px;
   padding: 2em;
   background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
   width: 100%; }
   .services-1 .icon {
     display: block;
@@ -8774,6 +8776,8 @@ h1, h2, h3, h4, h5,
       height: 1px;
       background: #3e64ff;
       margin: 0 auto; }
+    .services-1:hover .desc h3:after {
+      background: #ffffff;}
     .services-1 .desc h3 a {
       color: #fff; }
   .services-1 .desc h4 {
@@ -8788,12 +8792,14 @@ h1, h2, h3, h4, h5,
     color: #3e64ff; }
   .services-1 .desc p {
     color: rgba(0, 0, 0, 0.7); }
+  .services-1:hover .desc p {
+      color: #ffffff; }
   .services-1:hover {
     background: #3e64ff; }
     .services-1:hover .icon i {
       color: #fff; }
     .services-1:hover h3 {
-      color: #000000; }
+      color: #ffffff; }
       .services-1:hover h3:after {
         background: #000000; }
 
@@ -8936,6 +8942,7 @@ h1, h2, h3, h4, h5,
   height: 350px;
   margin-bottom: 0;
   position: relative;
+  border-radius: 10px;
   z-index: 0; }
   .project.img-2 {
     height: 600px; }
@@ -8966,6 +8973,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
+    border-radius: 10px;
     opacity: 0;
     background: #3e64ff;
     z-index: -1;
@@ -9252,6 +9260,7 @@ textarea.form-control {
 
 .ftco-counter .block-18 {
   display: block;
+  border-radius: 5px;
   width: 100%;
   text-align: center;
   padding: 30px 20px; }
